@@ -8,3 +8,5 @@ Expect to see more sample programs in the future, including sample programs from
 
 ## Switch from GLUT to FreeGLUT
 If you are going to follow my advice, don't forget to change `#include <GL/glut.h>` to `#include <GL/freeglut.h>` for every single program you want to compile.
+
+Also remove `#define GLUT_DISABLE_ATEXIT_HACK` from the code, since that's no longer required for FreeGLUT.
